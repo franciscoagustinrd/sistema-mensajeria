@@ -5,17 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 main {
     display: flex;
     width: 100%;
 }
+
 p {
     font-family: "Open Sans", sans-serif;
     line-height: normal;
 }
+
 i {
     padding: 0 15% 0 15%;
 }
+
 menu {
     background-color: #fff;
     width: 28em;
@@ -39,6 +43,7 @@ menu a {
     text-decoration: none;
 
 }
+
 section {
     background-color: #f8f8f8;
     display: flex;
@@ -47,6 +52,7 @@ section {
     align-items: center;
     width: 100%;
 }
+
 .menu-right {
     display: flex;
     align-self: center;
@@ -118,7 +124,7 @@ section {
     border-bottom: 2px solid #e8ebe4;
 }
 
-button.primary-button{
+button.primary-button {
     background-color: #a491d2;
     border: none;
     color: white;
@@ -128,12 +134,15 @@ button.primary-button{
     display: inline-block;
     font-size: 16px;
 }
-.primary-button:hover{
+
+.primary-button:hover {
     background-color: #cdc3e6;
 }
-.primary-button:focus{
+
+.primary-button:focus {
     background-color: #bec1bb;
 }
+
 .contacto {
     display: flex;
     margin-top: 1%;
