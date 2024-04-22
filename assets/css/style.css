@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    width: 100%;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    line-height: normal;
+}
+i {
+    padding: 0 15% 0 15%;
+}
+menu {
+    background-color: #fff;
+    width: 28em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+menu .menu-user {
+    padding: 1em;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid #e8ebe4;
+}
+
+menu a {
+    text-decoration: none;
+
+}
+.menu-right {
+    display: flex;
+    align-self: center;
+    color: #828485;
+    justify-content: flex-start;
+}
+
+.menu-left,
+.contacto {
+    display: flex;
+}
+section {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-center {
+    width: 25%;
+}
+
+.tiny-thumbnail {
+    width: 50px;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.normal-thumbnail {
+    width: 75px;
+    border-radius: 75%;
+    padding: 5%;
+}
+
+.text-xsmall {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #bec1bb;
+}
+
+.text-small {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #444749;
+}
+
+.text-medium {
+    font-size: 16x;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    color: #1b1f21;
+}
+
+.text-large {
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #444749;
+    margin-top: 2%;
+}
+
+.subtitle {
+    padding-top: 10%;
+}
+
+.subtitle-contacto {
+    padding-top: 9%;
+    width: 100%;
+}
+.chat {
+    display: flex;
+    justify-content: center;
+    padding: 13%;
+    border-bottom: 2px solid #e8ebe4;
+}
+
+button.primary-button{
+    background-color: #a491d2;
+    border: none;
+    color: white;
+    padding: 15px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.primary-button:hover{
+    background-color: #cdc3e6;
+}
+.contacto {
+    display: flex;
+    margin-top: 1%;
+    padding: 0 10% 1% 20%;
+    border-bottom: 2px solid #e8ebe4;
+    width: 100%;
+}
+
+
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
