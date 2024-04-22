@@ -131,6 +131,9 @@ button.primary-button{
 .primary-button:hover{
     background-color: #cdc3e6;
 }
+.primary-button:focus{
+    background-color: #bec1bb;
+}
 .contacto {
     display: flex;
     margin-top: 1%;
